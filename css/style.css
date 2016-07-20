@@ -1,0 +1,152 @@
+body {
+	background-image: url(../img/bground.jpg);
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+}	
+img {
+	border: 0;
+}
+header {
+	height: 173px;
+}
+.content {
+	width: 1000px;
+	min-height: 900px;
+	background-color: #ffffff;
+	margin: 0 auto 15px;
+	padding: 0;
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+.logo {
+	float: left;
+	width: 315px;
+	height: 165px;
+	margin-top: 8px;
+}
+.info {
+	float: right;
+	margin: 0 30px;
+	line-height: 0.5;
+	color: #1289a7; 
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.info p {
+	padding: 0;
+}
+.flag_list {
+	clear: right;
+	float:right;
+	margin: -5px 25px;
+	padding: 0;
+}
+.flag_list li {
+	display: inline-block;
+	list-style: none;
+}
+.flag_list a {
+	display: block;
+	box-sizing: border-box;
+	width: 55px;
+	text-align: center;
+	color: #1289a7; 
+	font-family: Tahoma;
+	font-size: 10px;
+}
+.foto img {
+	border-top: 1px solid #138aa7;
+	border-bottom: 1px solid #138aa7;
+}
+.navigation_bar {
+	background-image: url(../img/menu.jpg);
+	height: 30px;
+	margin: -20px 0;
+	padding: 0;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+#nav  li {
+	float: left;
+	list-style: none;
+	position: relative;
+	height: 30px;
+}
+#nav a {
+	margin:0 33px;
+	color: #ffffff; 
+	font-family: Tahoma;
+	font-size: 14px;
+	line-height: 30px;
+	text-decoration: none;
+	display: block;
+}
+#nav .dropdown {
+	position: absolute;
+	width: 160px;
+	height: 150px;
+	background-color: #2f2f2f;
+	top: 30px;
+	left: 10px;
+	display: none;
+	padding: 0;
+	box-shadow: 0 5px 5px rgba(0,0,0,.75)
+}
+#nav .dropdown li {
+	height: 30px;
+	margin-left: -10px;
+}
+#nav .dropdown li a {
+	padding: 0;
+	color: #ffffff; 
+	font-family: Tahoma;
+	font-size: 14px;
+	text-decoration: none;
+}
+#nav li:hover .dropdown {
+	display: block;
+}
+main {
+	width: 1000px;
+	margin: 0;
+	padding: 0;
+}
+.leftcolum {
+	width: 210px;
+	float: left;
+	background: #edeef0;
+	text-align: center;
+	color: #424c43; 
+	font-family: Tahoma;
+	font-size: 14px;
+	line-height: 1.8;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.centercolum {
+	float: left;
+	width: 580px;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.rightcolum {
+	width: 210px;
+	float: left;
+	padding-bottom: 10px;
+	text-align: center;
+	background: #edeef0;
+	color: #424c43; 
+	font-family: Tahoma;
+	font-size: 14px;
+	line-height: 1.8;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.rights {
+	margin: 15px auto;
+	text-align: center;
+	opacity: .8; 
+    color: #ffffff; 
+    font-family: Tahoma;
+    font-size: 12px;
+}
