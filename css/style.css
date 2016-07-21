@@ -110,6 +110,7 @@ main {
 	width: 1000px;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 .leftcolum {
 	width: 210px;
@@ -131,7 +132,7 @@ main {
 }
 .rightcolum {
 	width: 210px;
-	float: left;
+	float: right;
 	padding-bottom: 10px;
 	text-align: center;
 	background: #edeef0;
